@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="prediction.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- <body>
+  <header>
+    <div class="logo12">Anna<b style="color: #06C167;">Mrita</b></div>
+    <div class="hamburger12 navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <nav class="nav-bar12">
+            <ul>
+              <li><a href="C:/xampp/htdocs/Annamrita/home.html" >Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="profile.php">Profile</a></li>
+              <li><a href="fooddonateform.php">Donate</a></li>
+              <li><a href="display.html">Sensor data</a></li>
+              <li><a href="http://127.0.0.1:5000" class="active">Prediction</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+
+    </div>
+
+  </header> -->
+  <script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+      navBar = document.querySelector(".nav-bar");
+      navBar.classList.toggle("active");
+    }
+  </script>
+    <title>Food Spoilage Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Food Spoilage Prediction</h1>
+        <p class="text-center">Enter the food parameters to check if it's spoiled and estimate time to spoilage.</p>
+        
+        <form method="POST" action="/predict">
+            <div class="form-group">
+                <label for="temperature">Temperature (°C)</label>
+                <input type="number" step="any" class="form-control" id="temperature" name="temperature" placeholder="Enter temperature" required>
+            </div>
+            <div class="form-group">
+                <label for="moisture">Moisture (%)</label>
+                <input type="number" step="any" class="form-control" id="moisture" name="moisture" placeholder="Enter moisture" required>
+            </div>
+            <div class="form-group">
+                <label for="gasvalue">Gas Value (ppm)</label>
+                <input type="number" step="any" class="form-control" id="gasvalue" name="gasvalue" placeholder="Enter gas value" required>
+            </div>
+            <!-- Changed button class from btn-primary to btn-success -->
+            <button type="submit" class="btn btn-success">Predict</button>
+        </form>
+        
+        <div class="mt-4">
+            <h4>Prediction:</h4>
+            <p>{{ prediction_text }}</p>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

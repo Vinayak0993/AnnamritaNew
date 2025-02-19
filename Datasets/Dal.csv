@@ -1,0 +1,350 @@
+Food type,methane gas level,humidity ,temperature ,spoiled or not spoiled,outcome
+Dal,370,95,32.6,not spoiled ,0
+Dal,370,95,32.61,not spoiled ,0
+Dal,370,95,32.62,not spoiled ,0
+Dal,371,95,32.63,not spoiled ,0
+Dal,371,95,32.63,not spoiled ,0
+Dal,372,95,32.64,not spoiled ,0
+Dal,372,95,32.65,not spoiled ,0
+Dal,373,95,32.71,not spoiled ,0
+Dal,373,95,32.71,not spoiled ,0
+Dal,373,95,32.78,not spoiled ,0
+Dal,374,95,32.79,not spoiled ,0
+Dal,374,95,32.81,not spoiled ,0
+Dal,374,95,32.82,not spoiled ,0
+Dal,375,95,32.88,not spoiled ,0
+Dal,376,95,32.9,not spoiled ,0
+Dal,376,95,32.91,not spoiled ,0
+Dal,376,95,32.92,not spoiled ,0
+Dal,377,95,32.93,not spoiled ,0
+Dal,377,95,32.94,not spoiled ,0
+Dal,377,95,32.97,not spoiled ,0
+Dal,378,95,32.98,not spoiled ,0
+Dal,379,95,32.99,not spoiled ,0
+Dal,379,95,33,not spoiled ,0
+Dal,379,95,33,not spoiled ,0
+Dal,380,95,33.01,not spoiled ,0
+Dal,380,95,33.02,not spoiled ,0
+Dal,381,95,33.04,not spoiled ,0
+Dal,381,95,33.05,not spoiled ,0
+Dal,381,95,33.08,not spoiled ,0
+Dal,382,95,33.1,not spoiled ,0
+Dal,382,95,33.1,not spoiled ,0
+Dal,382,95,33.11,not spoiled ,0
+Dal,382,95,33.13,not spoiled ,0
+Dal,382,95,33.15,not spoiled ,0
+Dal,383,95,33.16,not spoiled ,0
+Dal,383,95,33.17,not spoiled ,0
+Dal,383,95,33.18,not spoiled ,0
+Dal,383,95,33.19,not spoiled ,0
+Dal,383,95,33.23,not spoiled ,0
+Dal,384,95,33.24,not spoiled ,0
+Dal,384,95,33.24,not spoiled ,0
+Dal,384,95,33.24,not spoiled ,0
+Dal,384,95,33.26,not spoiled ,0
+Dal,385,95,33.27,not spoiled ,0
+Dal,385,95,33.29,not spoiled ,0
+Dal,385,95,33.3,not spoiled ,0
+Dal,386,95,33.3,not spoiled ,0
+Dal,386,95,33.34,not spoiled ,0
+Dal,387,95,33.35,not spoiled ,0
+Dal,387,95,33.39,not spoiled ,0
+Dal,387,95,33.39,not spoiled ,0
+Dal,387,95,33.41,not spoiled ,0
+Dal,387,95,33.42,not spoiled ,0
+Dal,388,95,33.44,not spoiled ,0
+Dal,388,95,33.45,not spoiled ,0
+Dal,389,95,33.46,not spoiled ,0
+Dal,389,95,33.5,not spoiled ,0
+Dal,389,95,33.53,not spoiled ,0
+Dal,390,95,33.53,not spoiled ,0
+Dal,390,95,33.54,not spoiled ,0
+Dal,390,95,33.58,not spoiled ,0
+Dal,391,95,33.59,not spoiled ,0
+Dal,391,95,33.6,not spoiled ,0
+Dal,392,95,33.6,not spoiled ,0
+Dal,392,95,33.6,not spoiled ,0
+Dal,393,95,33.61,not spoiled ,0
+Dal,393,95,33.63,not spoiled ,0
+Dal,393,95,33.64,not spoiled ,0
+Dal,394,95,33.65,not spoiled ,0
+Dal,394,95,33.7,not spoiled ,0
+Dal,394,95,33.7,not spoiled ,0
+Dal,394,95,33.7,not spoiled ,0
+Dal,394,95,33.7,not spoiled ,0
+Dal,395,95,33.72,not spoiled ,0
+Dal,395,95,33.76,not spoiled ,0
+Dal,395,95,33.8,not spoiled ,0
+Dal,395,95,33.81,not spoiled ,0
+Dal,395,95,33.82,not spoiled ,0
+Dal,395,95,33.87,not spoiled ,0
+Dal,396,95,33.89,not spoiled ,0
+Dal,396,95,33.9,not spoiled ,0
+Dal,396,95,33.9,not spoiled ,0
+Dal,396,95,33.9,not spoiled ,0
+Dal,397,95,33.92,not spoiled ,0
+Dal,397,95,33.94,not spoiled ,0
+Dal,397,95,33.95,not spoiled ,0
+Dal,397,95,33.95,not spoiled ,0
+Dal,397,95,33.95,not spoiled ,0
+Dal,398,95,33.96,not spoiled ,0
+Dal,398,95,33.96,not spoiled ,0
+Dal,398,95,33.97,not spoiled ,0
+Dal,398,95,33.98,not spoiled ,0
+Dal,399,95,34,not spoiled ,0
+Dal,399,95,34,not spoiled ,0
+Dal,399,95,34.01,not spoiled ,0
+Dal,401,95,34.01,not spoiled ,0
+Dal,401,95,34.04,not spoiled ,0
+Dal,401,95,34.05,not spoiled ,0
+Dal,401,95,34.08,not spoiled ,0
+Dal,402,95,34.09,not spoiled ,0
+Dal,402,95,34.09,not spoiled ,0
+Dal,402,95,34.1,not spoiled ,0
+Dal,403,95,34.11,not spoiled ,0
+Dal,403,95,34.15,not spoiled ,0
+Dal,404,95,34.16,not spoiled ,0
+Dal,404,95,34.17,not spoiled ,0
+Dal,404,95,34.18,not spoiled ,0
+Dal,405,95,34.18,not spoiled ,0
+Dal,405,95,34.23,not spoiled ,0
+Dal,405,95,34.23,not spoiled ,0
+Dal,405,95,34.23,not spoiled ,0
+Dal,406,95,34.23,not spoiled ,0
+Dal,406,95,34.24,not spoiled ,0
+Dal,407,95,34.24,not spoiled ,0
+Dal,407,95,34.25,not spoiled ,0
+Dal,407,95,34.25,not spoiled ,0
+Dal,407,95,34.26,not spoiled ,0
+Dal,407,95,34.26,not spoiled ,0
+Dal,407,95,34.27,not spoiled ,0
+Dal,407,95,34.28,not spoiled ,0
+Dal,408,95,34.31,not spoiled ,0
+Dal,408,95,34.32,not spoiled ,0
+Dal,408,95,34.37,not spoiled ,0
+Dal,408,95,34.38,not spoiled ,0
+Dal,409,95,34.38,not spoiled ,0
+Dal,410,95,34.39,not spoiled ,0
+Dal,410,95,34.41,not spoiled ,0
+Dal,410,95,34.42,not spoiled ,0
+Dal,410,95,34.46,not spoiled ,0
+Dal,411,95,34.47,not spoiled ,0
+Dal,411,95,34.5,not spoiled ,0
+Dal,411,95,34.5,not spoiled ,0
+Dal,412,95,34.51,not spoiled ,0
+Dal,412,95,34.51,not spoiled ,0
+Dal,413,95,34.51,not spoiled ,0
+Dal,413,95,34.53,not spoiled ,0
+Dal,413,95,34.54,not spoiled ,0
+Dal,414,95,34.55,not spoiled ,0
+Dal,414,95,34.62,not spoiled ,0
+Dal,415,95,34.62,not spoiled ,0
+Dal,415,95,34.63,not spoiled ,0
+Dal,415,95,34.63,not spoiled ,0
+Dal,416,95,34.64,not spoiled ,0
+Dal,416,95,34.67,not spoiled ,0
+Dal,416,95,34.68,not spoiled ,0
+Dal,416,95,34.68,not spoiled ,0
+Dal,416,95,34.69,not spoiled ,0
+Dal,416,95,34.74,not spoiled ,0
+Dal,417,95,34.75,not spoiled ,0
+Dal,417,95,34.76,not spoiled ,0
+Dal,417,95,34.76,not spoiled ,0
+Dal,419,95,34.77,not spoiled ,0
+Dal,419,95,34.79,not spoiled ,0
+Dal,419,95,34.79,not spoiled ,0
+Dal,419,95,34.8,not spoiled ,0
+Dal,419,95,34.81,not spoiled ,0
+Dal,420,95,34.84,not spoiled ,0
+Dal,420,95,34.86,not spoiled ,0
+Dal,421,95,34.87,not spoiled ,0
+Dal,422,95,34.88,not spoiled ,0
+Dal,422,95,34.91,not spoiled ,0
+Dal,423,95,34.91,not spoiled ,0
+Dal,423,95,34.92,not spoiled ,0
+Dal,424,95,34.92,not spoiled ,0
+Dal,425,95,34.99,not spoiled ,0
+Dal,425,95,34.99,not spoiled ,0
+Dal,425,95,35,not spoiled ,0
+Dal,426,95,35,not spoiled ,0
+Dal,426,95,35.03,not spoiled ,0
+Dal,426,95,35.03,not spoiled ,0
+Dal,426,95,35.04,not spoiled ,0
+Dal,426,95,35.05,not spoiled ,0
+Dal,427,95,35.13,not spoiled ,0
+Dal,427,95,35.13,not spoiled ,0
+Dal,428,95,35.13,not spoiled ,0
+Dal,428,95,35.14,not spoiled ,0
+Dal,428,95,35.14,not spoiled ,0
+Dal,429,95,35.14,not spoiled ,0
+Dal,430,95,35.16,not spoiled ,0
+Dal,430,95,35.16,not spoiled ,0
+Dal,430,95,35.16,not spoiled ,0
+Dal,430,95,35.17,not spoiled ,0
+Dal,430,95,35.17,not spoiled ,0
+Dal,431,95,35.18,not spoiled ,0
+Dal,431,95,35.2,not spoiled ,0
+Dal,431,95,35.23,not spoiled ,0
+Dal,431,95,35.24,not spoiled ,0
+Dal,432,95,35.26,not spoiled ,0
+Dal,432,95,35.31,not spoiled ,0
+Dal,432,95,35.31,not spoiled ,0
+Dal,432,95,35.32,not spoiled ,0
+Dal,432,95,35.33,not spoiled ,0
+Dal,433,95,35.33,not spoiled ,0
+Dal,433,95,35.35,not spoiled ,0
+Dal,434,95,35.35,not spoiled ,0
+Dal,435,95,35.37,not spoiled ,0
+Dal,435,95,35.38,not spoiled ,0
+Dal,435,95,35.38,not spoiled ,0
+Dal,436,95,35.4,not spoiled ,0
+Dal,436,95,35.4,not spoiled ,0
+Dal,436,95,35.42,not spoiled ,0
+Dal,436,95,35.49,not spoiled ,0
+Dal,436,95,35.5,not spoiled ,0
+Dal,436,95,35.51,not spoiled ,0
+Dal,437,95,35.52,not spoiled ,0
+Dal,438,95,35.53,not spoiled ,0
+Dal,438,95,35.54,not spoiled ,0
+Dal,438,95,35.55,not spoiled ,0
+Dal,438,95,35.55,not spoiled ,0
+Dal,439,95,35.57,not spoiled ,0
+Dal,439,95,35.58,not spoiled ,0
+Dal,439,95,35.61,not spoiled ,0
+Dal,439,95,35.62,not spoiled ,0
+Dal,439,95,35.62,not spoiled ,0
+Dal,440,95,35.66,not spoiled ,0
+Dal,441,95,35.67,not spoiled ,0
+Dal,441,95,35.71,not spoiled ,0
+Dal,441,95,35.72,not spoiled ,0
+Dal,441,95,35.75,not spoiled ,0
+Dal,442,95,35.77,not spoiled ,0
+Dal,442,95,35.81,not spoiled ,0
+Dal,443,95,35.86,not spoiled ,0
+Dal,443,95,35.92,not spoiled ,0
+Dal,443,95,35.94,not spoiled ,0
+Dal,445,95,35.95,not spoiled ,0
+Dal,445,95,35.95,not spoiled ,0
+Dal,445,95,35.99,not spoiled ,0
+Dal,446,95,36.01,not spoiled ,0
+Dal,446,95,36.01,not spoiled ,0
+Dal,446,95,36.03,not spoiled ,0
+Dal,446,95,36.05,not spoiled ,0
+Dal,446,95,36.06,not spoiled ,0
+Dal,446,95,36.06,not spoiled ,0
+Dal,446,95,36.11,not spoiled ,0
+Dal,446,95,36.14,not spoiled ,0
+Dal,447,95,36.19,not spoiled ,0
+Dal,447,95,36.19,not spoiled ,0
+Dal,447,95,36.2,not spoiled ,0
+Dal,447,95,36.22,not spoiled ,0
+Dal,447,95,36.24,not spoiled ,0
+Dal,447,95,36.26,not spoiled ,0
+Dal,448,95,36.27,not spoiled ,0
+Dal,448,95,36.31,not spoiled ,0
+Dal,448,95,36.34,not spoiled ,0
+Dal,448,95,36.35,not spoiled ,0
+Dal,448,95,36.37,not spoiled ,0
+Dal,448,95,36.38,not spoiled ,0
+Dal,449,95,36.39,not spoiled ,0
+Dal,449,95,36.4,not spoiled ,0
+Dal,449,95,36.41,not spoiled ,0
+Dal,449,95,36.41,not spoiled ,0
+Dal,450,95,36.49,not spoiled ,0
+Dal,450,95,36.51,not spoiled ,0
+Dal,450,95,36.53,not spoiled ,0
+Dal,451,95,36.53,spoiled,1
+Dal,451,95,36.56,spoiled,1
+Dal,451,95,36.57,spoiled,1
+Dal,451,95,36.57,spoiled,1
+Dal,451,95,36.58,spoiled,1
+Dal,452,95,36.62,spoiled,1
+Dal,452,95,36.63,spoiled,1
+Dal,453,95,36.64,spoiled,1
+Dal,453,95,36.66,spoiled,1
+Dal,453,95,36.66,spoiled,1
+Dal,453,95,36.67,spoiled,1
+Dal,453,95,36.67,spoiled,1
+Dal,454,95,36.67,spoiled,1
+Dal,454,95,36.68,spoiled,1
+Dal,454,95,36.71,spoiled,1
+Dal,454,95,36.75,spoiled,1
+Dal,454,95,36.75,spoiled,1
+Dal,454,95,36.75,spoiled,1
+Dal,454,95,36.76,spoiled,1
+Dal,455,95,36.78,spoiled,1
+Dal,455,95,36.78,spoiled,1
+Dal,455,95,36.78,spoiled,1
+Dal,455,95,36.79,spoiled,1
+Dal,455,95,36.8,spoiled,1
+Dal,455,95,36.81,spoiled,1
+Dal,456,95,36.84,spoiled,1
+Dal,456,95,36.87,spoiled,1
+Dal,456,95,36.89,spoiled,1
+Dal,457,95,36.91,spoiled,1
+Dal,457,95,36.92,spoiled,1
+Dal,457,95,36.94,spoiled,1
+Dal,457,95,36.96,spoiled,1
+Dal,457,95,36.98,spoiled,1
+Dal,458,95,36.98,spoiled,1
+Dal,458,95,37.01,spoiled,1
+Dal,458,95,37.02,spoiled,1
+Dal,458,95,37.02,spoiled,1
+Dal,458,95,37.04,spoiled,1
+Dal,458,95,37.04,spoiled,1
+Dal,458,95,37.06,spoiled,1
+Dal,459,95,37.06,spoiled,1
+Dal,459,95,37.1,spoiled,1
+Dal,460,95,37.12,spoiled,1
+Dal,460,95,37.14,spoiled,1
+Dal,460,95,37.16,spoiled,1
+Dal,460,95,37.18,spoiled,1
+Dal,460,95,37.18,spoiled,1
+Dal,461,95,37.18,spoiled,1
+Dal,461,95,37.21,spoiled,1
+Dal,462,95,37.22,spoiled,1
+Dal,462,95,37.25,spoiled,1
+Dal,462,95,37.27,spoiled,1
+Dal,462,95,37.29,spoiled,1
+Dal,462,95,37.3,spoiled,1
+Dal,462,95,37.33,spoiled,1
+Dal,463,95,37.34,spoiled,1
+Dal,463,95,37.35,spoiled,1
+Dal,463,95,37.36,spoiled,1
+Dal,464,95,37.37,spoiled,1
+Dal,465,95,37.42,spoiled,1
+Dal,466,95,37.44,spoiled,1
+Dal,467,95,37.45,spoiled,1
+Dal,467,95,37.49,spoiled,1
+Dal,467,95,37.52,spoiled,1
+Dal,467,95,37.52,spoiled,1
+Dal,468,95,37.52,spoiled,1
+Dal,468,95,37.54,spoiled,1
+Dal,468,95,37.55,spoiled,1
+Dal,468,95,37.59,spoiled,1
+Dal,468,95,37.61,spoiled,1
+Dal,469,95,37.62,spoiled,1
+Dal,469,95,37.66,spoiled,1
+Dal,469,95,37.67,spoiled,1
+Dal,469,95,37.67,spoiled,1
+Dal,469,95,37.69,spoiled,1
+Dal,469,95,37.7,spoiled,1
+Dal,470,95,37.72,spoiled,1
+Dal,470,95,37.73,spoiled,1
+Dal,470,95,37.73,spoiled,1
+Dal,470,95,37.73,spoiled,1
+Dal,470,95,37.73,spoiled,1
+Dal,471,95,37.75,spoiled,1
+Dal,472,95,37.77,spoiled,1
+Dal,472,95,37.78,spoiled,1
+Dal,473,95,37.79,spoiled,1
+Dal,473,95,37.81,spoiled,1
+Dal,473,95,37.82,spoiled,1
+Dal,473,95,37.83,spoiled,1
+Dal,473,95,37.83,spoiled,1
+Dal,473,95,37.84,spoiled,1
+Dal,473,95,37.88,spoiled,1
+Dal,473,95,37.92,spoiled,1
+Dal,473,95,37.93,spoiled,1
+Dal,474,95,37.93,spoiled,1
+Dal,474,95,37.94,spoiled,1
