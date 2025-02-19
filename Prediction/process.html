@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Spoilage Prediction</title>
+</head>
+<body>
+    <h1>Food Spoilage Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="temperature">Temperature:</label>
+        <input type="number" id="temperature" name="temperature"><br><br>
+        <label for="moisture">Moisture:</label>
+        <input type="number" id="moisture" name="moisture"><br><br>
+        <label for="gasvalue">Gas Value:</label>
+        <input type="number" id="gasvalue" name="gasvalue"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

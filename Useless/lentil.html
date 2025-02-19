@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food waste prediction</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Food waste prediction</title>
+  
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+</head>
+<body>
+    <header>
+        <div class="logo">Food <b style="color: #06C167;">Donate</b></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="#about" >About</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+                <li><a href="profile.php" >Profile</a></li>
+                <li ><a href="fooddonateform.php"  >Donate</a></li>
+                <li ><a href="display.html"  >Sensor data</a></li>
+                <li ><a href="ml.html" class="active"  >Prediction</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger=document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar=document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+      <ul class="right hide-on-med-and-down">
+        
+      </ul>
+
+   <style>
+        h1 { 
+  display: block;
+  font-size: 2.7em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+       h5 { 
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+}
+        .input-fieldcol-s4{
+            text-align: center;
+            font-size: 1em;
+        }
+
+        .button {
+            text-align: center;
+            position: absolute;
+            left: 780px;
+            bottom: 430px;
+
+        }
+
+   </style>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Food waste prediction for Lentil Soup</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Predict the probability of food being unfit for consumption
+        <br>
+        </h5>
+      </div>
+
+              <div class="row">
+    <form action='/predict3' method="post" class="col s12">
+      <div class="row">
+        <div class="input-fieldcol-s4">
+            <label for="first_name"><b>Temperature</b></label>
+            <br>
+          <input placeholder="Temperature in Celsius" name="Temperature" id="first_name" type="text" class="validate">
+        </div>
+        <br>
+        <div class="input-fieldcol-s4">
+
+          <label for="last_name"><b>Methane gas level </b></label>
+            <br>
+          <input id="last_name" name="Oxygen" placeholder="Oxygen content in ppm"  type="text" class="validate">
+        </div>
+        <br>
+
+        <div class="input-fieldcol-s4">
+            <label for="_name"><b>Humidity</b></label>
+            <br>
+          <input id="_name" name="Humidity" placeholder="Humidity %" type="text" class="validate">
+        </div>
+        <br>
+
+      </div>
+
+      <div class="row center">
+        <br>
+        <br>
+          <button type="submit" class="button">Predict Probability</button>
+      </div>
+    </form>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+        {{pred}}<br>
+
+    </div>
+  </div>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src=".js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+      
+
+   
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src=".js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
+

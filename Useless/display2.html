@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real-Time Sensor Data Display</title>
+  <link rel="stylesheet" href="display.css"> <!-- Link to external CSS file -->
+  <style>
+    /* Additional CSS styles for table formatting */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid #ddd; /* Border around the table */
+    }
+
+    th, td {
+      border: 1px solid #ddd; /* Border for cells */
+      padding: 8px;
+      text-align: center; /* Center-align text in cells */
+    }
+
+    th {
+      background-color: #f2f2f2; /* Header background color */
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery library -->
+  <script>
+    $(document).ready(function() {
+      let lastData = {}; // Variable to store the last displayed data
+
+      // Function to fetch data from server using long polling
+      function fetchDataLongPolling() {
+        $.ajax({
+          url: 'fetch_data.php', 
+          type: 'GET',
+          dataType: 'json',
+          success: function(data) {
+            console.log('Received data:', data); // Log received data to console
+
+            // Check if the received data is different from the last displayed data
+            if (!isEqual(lastData, data)) {
+              lastData = data; // Update lastData with the new data
+
+              // Update webpage content with fetched data
+              $('#sensorTable').prepend(`
+                <tr>
+                  <th>Serial No</th>
+                  <th>Temperature (°C)</th>
+                  <th>Moisture (gm3)</th>
+                  <th>Gas (ppm)</th>
+                  <th>Time</th>
+                </tr>
+                <tr>
+                  <td>${data.serial}</td>
+                  <td>${data.temperature}</td>
+                  <td>${data.moisture}</td>
+                  <td>${data.gasvalue}</td>
+                  <td>${data.timestamp}</td>
+                </tr>
+              `);
+            }
+
+            // Start next long polling request
+            fetchDataLongPolling();
+          },
+          error: function(xhr, status, error) {
+            console.log('Error fetching data');
+            
+            // Retry long polling after a delay
+            setTimeout(fetchDataLongPolling, 5000); // Retry after 5 seconds
+          }
+        });
+      }
+
+      // Utility function to check object equality
+      function isEqual(obj1, obj2) {
+        return JSON.stringify(obj1) === JSON.stringify(obj2);
+      }
+
+      // Start initial long polling request
+      fetchDataLongPolling();
+    });
+  </script>
+</head>
+<body>
+  <h1>Real-Time Sensor Data</h1>
+  <table id="sensorTable">
+    <!-- Table will be dynamically updated with sensor data -->
+  </table>
+</body>
+</html>

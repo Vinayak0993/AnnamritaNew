@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Spoilage Prediction</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        label {
+            font-size: 14px;
+            margin: 10px 0 5px;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            padding: 10px;
+            font-size: 14px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        #predictionResult {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Food Spoilage Prediction</h1>
+
+        <form id="predictionForm">
+            <label for="food_type">Food Type:</label>
+            <input type="text" id="food_type" placeholder="Enter food type" required>
+
+            <label for="methane_gas_level">Methane Gas Level (ppm):</label>
+            <input type="number" id="methane_gas_level" placeholder="e.g., 35" required>
+
+            <label for="humidity">Humidity (%):</label>
+            <input type="number" id="humidity" placeholder="e.g., 60" required>
+
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" id="temperature" placeholder="e.g., 25" required>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        <div id="predictionResult"></div>
+    </div>
+
+    <script src="mlscript.js"></script>
+
+</body>
+</html>

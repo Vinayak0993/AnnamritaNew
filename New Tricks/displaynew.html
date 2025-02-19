@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-Time Sensor Data</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Real-Time Sensor Data</h1>
+
+    <table id="sensorData">
+        <tr>
+            <th>Sensor</th>
+            <th>Latest Value</th>
+        </tr>
+        <tr>
+            <td>Temperature</td>
+            <td id="temperature">Loading...</td>
+        </tr>
+        <tr>
+            <td>Moisture</td>
+            <td id="moisture">Loading...</td>
+        </tr>
+        <tr>
+            <td>Gas Value</td>
+            <td id="gasValue">Loading...</td>
+        </tr>
+        <tr>
+            <td>Spoilt Status</td>
+            <td id="spoiltStatus">Loading...</td>
+        </tr>
+        <tr>
+            <td>Last Updated</td>
+            <td id="timestamp">N/A</td>
+        </tr>
+    </table>
+
+    <button id="fetchDataButton">Get Data</button>
+
+    <script>
+        $(document).ready(function() {
+            $('#fetchDataButton').click(function() {
+                $.ajax({
+                    url: 'fetch_data.php',
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(data) {
+                        $('#temperature').text(data.temperature + ' °C');
+                        $('#moisture').text(data.moisture + ' gm3');
+                        $('#gasValue').text(data.gasValue + ' ppm');
+                        $('#timestamp').text(data.timestamp);
+                        var spoiltStatus = data.spoilt ? 'Spoilt' : 'Not Spoilt';
+                        $('#spoiltStatus').text(spoiltStatus);
+                    },
+                    error: function(xhr, status, error) {
+                        console.log('Error fetching data');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

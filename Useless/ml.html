@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food waste prediction</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Food <b style="color: #06C167;">Donate</b></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="#about" >About</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+                <li><a href="profile.php" >Profile</a></li>
+                <li ><a href="fooddonateform.php"  >Donate</a></li>
+                <li ><a href="display.html"  >Sensor data</a></li>
+                <li ><a href="ml.html" class="active"  >Prediction</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger=document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar=document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <style>
+       
+
+      .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: hsl(120, 88%, 61%);
+       border: none;
+        color: #FFFFFF;
+        text-align: center;
+         font-size: 28px;
+       padding: 20px;
+       width: 200px;
+       transition: all 0.5s;
+        cursor: pointer;
+         margin: 5px;
+        position: absolute;
+        left: 210px;
+        top: 380px}
+
+      .button span {
+        cursor: pointer;
+       display: inline-block;
+       position: relative;
+        transition: 0.5s;
+        }
+
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+
+      .button:hover span {
+        padding-right: 25px;
+        }
+
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+      .button2 {background-color:hsl(120, 88%, 61%);
+        position: absolute;
+        left: 690px;
+        top: 380px} /* Blue */
+      .button3 {background-color:hsl(120, 88%, 61%);
+        position: absolute;
+        left: 1185px;
+        top: 380px} /* Red */ 
+
+        .coverc{
+          width: 100%;
+          height: 400px;
+          background:url('img/about3.jpg')no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items:center;
+    padding-top: 8rem;
+ 
+        } 
+        .title{
+          font-size: 38px;
+          text-align: center;
+          align-items: center; 
+        }
+        .title1{
+        font-size: 20px;
+          margin: 10px;
+          text-align: center;
+          align-items: center;
+        }
+        .temp{
+        font-size: 20px;
+          margin: 10px;
+          text-align: center;
+          align-items: center;
+        }
+       
+        .para p{
+            font-size: 23px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+          @media (max-width: 767px) {
+            .para p{
+               font-size: 16px;
+               /* margin-left: 10px; */
+              }
+            #pptslide{
+                height: 200px;
+                width: 300px;
+
+            }
+            #map{
+              height: 200px;
+                width: 300px;
+
+
+            }
+            #overview{
+              height: 200px;
+                width: 300px;
+            }
+            
+        .title{
+          font-size: 28px;
+          margin: 10px;
+          text-align: center;
+          align-items: center; 
+        }
+        .title1{
+            font-size: 28px;
+          margin: 10px;
+          text-align: center;
+          align-items: center;
+        }
+        .temp{
+            font-size: 28px;
+          margin: 10px;
+          text-align: center;
+          align-items: center;
+        }
+        .button {
+           background-color: #04AA6D; /* Green */
+           border: none;
+           color: white;
+           padding: 15px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+          }
+
+          }
+     
+    </style>
+    <br>
+    <br>
+    <!-- <section class="coverc">
+        
+    
+    </section> -->
+    <p class="title"> <b><u>Food prediction</u></p></b>
+    <br>
+    <br>
+    <br>
+     <p class="container";>
+        <h1 class="title1 ">Food waste prediction</h1>
+        <div class="row center">        
+            <h5 class="title1">Predict the probability of food being unfit for consumption
+         <br>
+         <br>
+         <br>
+        </h5>
+        <ul>
+
+          
+          <button class= "button" style="vertical-align: middle" onclick="document.location='samosa.html'"><span>Samosa </span></button>
+          <button class="button button2" style="vertical-align:middle" onclick="document.location='rice.html'"><span>Rice</span></button>
+          <button class="button button3" style="vertical-align:middle" onclick="document.location='lentil.html'"><span>Lentil Soup</span></button>
+          
+          
+      </ul>
+
+
+
+        </div>
+      </div>
+  
+      </div>
+    </section>
+
+
+</body>
+</html>
